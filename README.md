@@ -22,6 +22,22 @@ I have spent alot of time on this project and now releasing all this information
 
 # Instructions
 
+## Usage Options
+
+You have two ways to use this system:
+
+### Option A: With Computer (USB Bridge Mode)
+Use the Arduino as an interface between your computer and the battery, controlled by the Python GUI application. This provides a full graphical interface with all features.
+
+### Option B: Without Computer (Standalone Mode) - NEW!
+Use the Arduino independently to communicate with batteries directly. Perfect for quick diagnostics or dedicated testing stations without needing a computer each time.
+
+**For standalone mode, see [ArduinoOBI/STANDALONE.md](ArduinoOBI/STANDALONE.md)**
+
+---
+
+## Setup Instructions (USB Bridge Mode)
+
 ## Step 1: Set Up ArduinoOBI
 
   1. Navigate to the ArduinoOBI folder in the project directory.
