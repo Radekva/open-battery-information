@@ -8,6 +8,23 @@ This simple interface can be built using an Ardunio Uno and some external resist
 
 ---
 
+## Usage Modes
+
+ArduinoOBI can be used in two modes:
+
+### 1. USB Bridge Mode (Default)
+The Arduino acts as a bridge between your PC and the battery. Use this mode with the OpenBatteryInformation Python GUI application.
+
+### 2. Standalone Mode (New!)
+The Arduino can now communicate with batteries directly without requiring a PC. Perfect for:
+- Dedicated battery diagnostics stations
+- Automated battery testing
+- Quick battery unlocking without a computer
+
+**See [STANDALONE.md](STANDALONE.md) for complete standalone mode documentation and examples.**
+
+---
+
 ## Prerequisites
 
 Ensure you have the following installed on your system:
@@ -60,3 +77,13 @@ Or,
   Under "General", click Upload.
   PlatformIO will detect the correct port and upload the firmware to your Arduino UNO.
   A successful upload will display an "Upload complete" message in the terminal.
+
+---
+
+## Next Steps
+
+### For USB Bridge Mode
+After flashing the Arduino, proceed to set up the OpenBatteryInformation Python GUI as described in the main [README.md](../README.md).
+
+### For Standalone Mode
+To use the Arduino without a PC, see the [Standalone Mode Guide](STANDALONE.md) for examples and instructions on using the BatteryOBI library directly on the Arduino.
